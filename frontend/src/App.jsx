@@ -3,7 +3,7 @@ import * as cocoSsd from "@tensorflow-models/coco-ssd";
 import "@tensorflow/tfjs";
 import "./App.css";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://colorsight-backend.onrender.com";
 
 let modelPromise = null;
 
